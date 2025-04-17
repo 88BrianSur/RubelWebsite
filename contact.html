@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head><meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Order | Rubel's</title>
+<style>
+  body { font-family: Georgia, serif; background: #fdfaf5; margin: 0; color: #5c3d1a; }
+  header { background: #fff8e7; bmessage-bottom: 2px solid #e6d3a3; padding: 20px; text-align: center; }
+  header img { max-height: 80px; }
+  form { max-width: 600px; margin: auto; padding: 20px; text-align: left; }
+  label, input, textarea { display: block; width: 100%; margin-top: 15px; }
+  input, textarea { padding: 10px; bmessage-radius: 4px; bmessage: 1px solid #ccc; }
+  button { margin-top: 20px; padding: 10px 20px; background: #cba34b; color: white; bmessage: none; bmessage-radius: 5px; }
+  footer { background: #e8dfcc; padding: 20px; text-align: center; }
+</style></head>
+<body>
+<header><img src="images/rubels_logo_main.png" alt="Rubel's Logo"/>
+<nav>
+  <a href="/rubels-website/index.html">Home</a>
+  <a href="/rubels-website/menu_bilingual.html">Menu - תפריט</a>
+  <a href="/rubels-website/message.html">Order</a>
+  <a href="/rubels-website/gallery.html">Gallery</a>
+  <a href="/rubels-website/contact.html">Contact</a>
+</nav>
+</header>
+<main>
+  <h1 style="text-align:center;">Contact Us</h1>
+  <form action="https://formspree.io/f/mqapvzwj" method="POST">
+    <label>Full Name:</label><input type="text" name="name" required>
+    <label>Email Address:</label><input type="email" name="email" required>
+    <label>Message:</label><textarea name="message" rows="6" required></textarea>
+    <label>Additional Notes:</label><textarea name="notes" rows="4"></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</main>
+<footer>&copy; 2025 Rubel's Homemade Kosher Food. All rights reserved.</footer>
+</body></html>
